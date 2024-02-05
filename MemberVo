@@ -1,0 +1,37 @@
+package member.practice;
+
+public class MemberVo {
+
+    public String id;
+    public String pwd;
+    public String name;
+    public int age;
+    public char gender;
+    public String phone;
+    public String email;
+
+
+
+
+    public void setId(String id){
+        this.id = id;
+    }
+    public void setPwd(String pwd){
+        this.pwd = pwd;
+    }
+    public void setName(String name){
+        this.name = name;
+    }
+    public void setAge(int age){
+        this.age = age;
+    }
+    public void setGender(char gender){
+        this.gender = gender;
+    }
+    public void setPhone(String phone){
+        this.phone = phone;
+    }
+    public  void setEmail(String email){
+        this.email = email;
+    }
+}
