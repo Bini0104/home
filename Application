@@ -1,0 +1,29 @@
+package member.practice;
+
+public class Application {
+    public static void main(String[] args) {
+        MemberVo vo = new MemberVo();
+        vo.setId("User01");
+        vo.setPwd("pass01");
+        vo.setName("홍길동");
+        vo.setAge(20);
+        vo.setGender('M');
+        vo.setPhone("010-1234-5678");
+        vo.setEmail("hong123@greedy.com");
+
+        System.out.println("id : " + vo.id);
+        System.out.println("pwd : " + vo.pwd);
+        System.out.println("name : " + vo.name);
+        System.out.println("gender : " + vo.gender);
+        System.out.println("phone : " + vo.phone);
+        System.out.println("email : " + vo.email);
+
+        System.out.println("변경 후 id : " + vo.setId());
+        System.out.println("변경 후 pwd : " + vo.setPwd());
+        System.out.println("변경 후 name : " + vo.setName());
+        System.out.println("변경 후 gender : " + vo.setGender());
+        System.out.println("변경 후 phone : " + vo.setPhone());
+        System.out.println("변경 후 email : " + vo.setEmail());
+
+
+    }
