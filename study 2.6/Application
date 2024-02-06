@@ -1,0 +1,57 @@
+package member.practice3;
+
+public class Application {
+
+    public static void main(String[] args) {
+/* Application 클래스와 MemberVO클래스를 생성하고
+*  Application 클래스에 다음과 같이 출력할 수 있도록
+*  MemberVO클래스를 만들어주세요.
+*  */
+
+//setter를 이용해서 필드 값 변경
+//getter를 이용해서 1차 변경된 필드값 확인
+//setter를 이용해서 필드 값 변경
+//getter를 이용해서 2차 변경된 필드값 확인
+
+        /* 출력예시 */
+//1차 변경 후 name : 자바칩
+//1차 변경 후 age : 38
+//1차 변경 후 addr : 서울
+//1차 변경 후 job : 프로그래머
+//1차 변경 후 marry : O          -> 영어 대문자 O
+
+//2차 변경 후 name : 자바칩2
+//2차 변경 후 age : 29
+//2차 변경 후 addr : 시흥
+//2차 변경 후 job : 요리사
+//2차 변경 후 marry : X          -> 영어 대문자 X
+
+        MemberVo vo = new MemberVo();
+
+        vo.setName("자바칩");
+        vo.setAge(38);
+        vo.setAddr("서울");
+        vo.setJob("프로그래머");
+        vo.setMarry('O');
+
+        System.out.println("1차 변경 후 name : " + vo.getName());
+        System.out.println("1차 변경 후 age : " + vo.getAge());
+        System.out.println("1차 변경 후 addr : " + vo.getAddr());
+        System.out.println("1차 변경 후 job : " + vo.getJob());
+        System.out.println("1차 변경 후 marry : " + vo.getMarry());
+
+        vo.setName("자바칩2");
+        vo.setAge(29);
+        vo.setAddr("시흥");
+        vo.setJob("요리사");
+        vo.setMarry('X');
+
+        System.out.println("2차 변경 후 name : " + vo.getName());
+        System.out.println("2차 변경 후 age : " + vo.getAge());
+        System.out.println("2차 변경 후 addr : " + vo.getAddr());
+        System.out.println("2차 변경 후 job : " + vo.getJob());
+        System.out.println("2차 변경 후 marry  " + vo.getMarry());
+
+
+    }
+}
