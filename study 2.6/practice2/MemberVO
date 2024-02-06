@@ -1,0 +1,39 @@
+package practice0206;
+
+public class MemberVO {
+    private String name;
+    private String branch;
+    private String phone;
+    private boolean parking;
+
+    public void setName(String name){
+        this.name = name;
+    }
+    public void setBranch(String branch){
+        this.branch = branch;
+    }
+    public void setPhone(String phone){
+        this.phone = phone;
+    }
+    public void setParking(boolean parking){
+        this.parking = parking;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
+
+    public boolean isParking() {
+            return parking;
+        }
+
+        public String getBranch(){
+            return branch;
+        }
+
+
+    }
