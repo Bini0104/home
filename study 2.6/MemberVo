@@ -1,0 +1,48 @@
+package member.practice3;
+
+public class MemberVo {
+    private String name;
+    private int age;
+    private String addr;
+    private String job;
+    private char marry;
+
+    public void setName(String name){
+        this.addr = addr;
+    }
+
+    public void setAge (int age){
+        this.age = age;
+    }
+    public void setAddr(String addr) {
+        this.addr = addr;
+    }
+
+    public void setMarry(char marry) {
+    }
+
+    public void setJob(String job){
+        this.job = job;
+
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public String getAddr() {
+        return addr;
+    }
+
+    public String getJob() {
+        return job;
+    }
+
+    public char getMarry() {
+        return marry;
+    }
+}
